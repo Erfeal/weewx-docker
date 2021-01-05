@@ -16,11 +16,9 @@ services:
     restart: "no"
     volumes:
       - type: bind
-        source: ./data
+        source: /hadata/weewx
         target: /data
     environment:
-      - TIMEZONE=US/Eastern
-      - WEEWX_UID=weewx
-      - WEEWX_GID=dialout
+      - TIMEZONE=Europe/Paris
     # devices:
     #   - "/dev/ttyUSB0:/dev/ttyUSB0"
