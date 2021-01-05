@@ -4,3 +4,6 @@ pyserial
 pyusb
 setuptools
 wheel
+cheetah3
+pillow
+pyephem
